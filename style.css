@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+main{
+    height: 100vh;
+    
+}
+
+h1{
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.direction{
+    flex-direction: column;
+}
+
+.box{
+    width: 20rem;
+}
+
+p{
+    width: 20rem;
+    padding: 0.4rem 0.8rem;
+    border: 0.12rem solid blue;
+    border-radius: 0.5rem;
+}
+
+.border{
+    padding: 0.4rem 0.8rem;
+    border: 0.12rem solid blue;
+    border-radius: 0.5rem;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.mt-1{
+    margin-top: 0.5rem;
+}
+
+.mt-2{
+    margin-top: 1rem;
+}
+
+.border-div{
+    border: 0.12rem solid #178AFC;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.back-color{
+    background-color: #178AFC;
+    color: #fff;
+}
